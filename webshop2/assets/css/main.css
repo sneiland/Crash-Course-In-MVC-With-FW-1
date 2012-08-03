@@ -1,0 +1,305 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	-moz-outline: 0;
+}
+
+/*make html5 work in older versions of IE*/
+header,nav,section,article,aside,footer,hgroup { 
+	display: block;
+}
+
+html,body {
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;;
+    color: #000000;
+	text-align: left;
+	font-size: 13px;
+	font-family: "Calisto MT", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+p {
+	margin-bottom: 5px;
+	font-size:13px;
+	color:#333;
+}
+
+h1 {
+	font-size:17px;
+}
+
+h2 {
+	font-size:16px;
+	border-bottom:solid 1px #aaa;
+	font-weight:700;
+	color:#993300;
+}
+
+h3 {
+	font-size:14px;
+	/*font-style:oblique;*/
+	text-decoration:underline;
+	color:#000;
+}
+
+h3 a {
+	text-decoration:none;
+	font-style:oblique;
+	color:#000;
+}
+
+h4 {
+	font-size:12px;
+	font-style:oblique;
+}
+
+ul {
+	padding-left:15px;
+	color:#333;
+}
+
+ol {
+	padding-left:15px;
+	color:#333;
+}
+
+a {
+	text-decoration:none;
+	/*color:#505050;*/
+}
+
+a img {
+	text-decoration:none;
+	border:none;
+}
+
+.wrapper {
+	background-color: #e6e5e5;
+	position:relative;
+	width:1000px;
+	margin:auto;
+	min-height:100%;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #aaa;
+}
+
+.header {
+	height:75px;
+	background-color:#4588D6;
+	position:relative;
+	border-bottom:solid 1px #333;
+}
+
+.headerLogo {
+	float:left;	
+	margin:10px 0 0 10px;
+	font-size:20px;
+	color:#fff;
+}
+
+.pageHeader {
+	margin:0 0 10px 110px;
+	color:#ff0000;
+	font-size:24px;
+}
+
+.sideBar {
+	float:left;
+	width:200px;
+	margin:5px;
+}
+
+.mainWrapper {
+	padding:0px;
+	padding-bottom:22px;
+	margin: 5px 5px 5px 210px;
+	background-color:#fff;
+}
+
+.mainHeader {
+	padding:5px;
+	border: solid 1px #aaa;
+	font-size:16px;
+	background-color:#f0f0f0;
+	color:#333;	
+}
+
+.main {
+	padding:5px;
+	padding-bottom:22px;
+}
+
+
+
+.footer {
+	position:absolute;
+	overflow:hidden;
+   	bottom:0;
+   	color:#fff;
+   	vertical-align:middle;
+   	width:100%;
+	text-align:center;
+	z-index:2;
+	background-color:#4588D6;
+	height:20px;
+}
+
+.footerText {
+	line-height:20px;
+}
+
+/****************************************************************
+ * ************************ Site Nav ****************************
+ ***************************************************************/
+
+
+.menu {
+	list-style-type:none;
+	padding:0;
+}
+
+.menu li {
+	margin-bottom:2px;
+	border:solid 1px #aaa;
+	background-color:#f5f5f5;
+	font-size:14px;
+}
+
+.menu a {
+	padding:5px;
+	margin-bottom:2px;
+	
+	font-size:14px;
+	display:block;
+}
+
+
+.tweetBox {
+	border:solid 1px #aaa;
+	background-color:#9999ff;
+	padding:2px;
+}
+
+.tweetBox h2 {
+	color:#333;
+	background-color:#f5f5f5;
+	padding:2px;
+}
+
+.tweetBox ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.tweetBox li {
+	border-bottom:solid 1px #fff;
+	padding:5px;
+}
+
+
+.productTabs {
+	border-bottom: solid 1px #aaa;
+	height:30px;
+}
+
+.productTabs ul {
+	list-style-type:none;
+}
+
+.productTabs li {
+	float:left;
+	padding:5px;
+	border-right:solid 1px #999;
+}
+/*********************************************************
+ * -------------------- Data Grid ------------------------
+ *********************************************************/
+.dataGrid {
+	border:1px solid #aaa;
+	font-family: calibri, arial;
+	font-size: 12px;
+	margin-bottom:5px;
+}
+
+.dataGrid td,.dataGrid th {
+	padding:3px;
+}
+
+.dataGrid th {
+	background-color:#333333;
+	color:#fff;
+}
+
+.dataGrid td {
+	color:#333;
+	border:1px solid #aaa;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+}
+
+.dataGrid .odd td {
+	background-color: #ffffff;
+}
+
+.dataGrid .even td {
+	background-color: #ffffcc;
+}
+
+/*********************************************************
+ * ---------------------Forms-----------------------------
+ *********************************************************/
+form {
+	width: auto;
+}
+
+input,textarea,select {
+	margin-bottom:5px;
+	margin-left:10px;
+	background-color:#ffffff;
+}
+
+input {
+}
+
+fieldset {
+	margin:10px 0 0 0;
+	padding:10px;
+	background-color:#ebf4fb;
+	border-top:solid 1px #b7ddf2;
+	border-left:solid 1px #b7ddf2;
+	border-right:solid 2px #b7ddf2;
+	border-bottom:solid 2px #b7ddf2;
+}
+
+legend {
+	padding:10px;
+	border:solid 1px #b7ddf2;
+	background-color:#ebf4fb;
+}
+
+label {
+	float:left;
+	width:200px;
+	font-size:14px;
+	font-weight:bold;
+	color:#777;
+}
+
+input[type="submit"],input[type="reset"] {
+	padding:5px;
+}
+
+.honey {
+	/*Hidden input fields for honeypot security*/
+	display:none;
+}
+
+.clear {
+	clear:both;
+	height:1px;
+}

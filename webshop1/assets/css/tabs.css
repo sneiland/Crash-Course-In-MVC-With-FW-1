@@ -1,0 +1,72 @@
+/****************************************************************
+ * ******************** Site Tabular Nav ************************
+ ***************************************************************/
+
+
+.tabNav {
+	display: block;
+	float: left;
+}
+
+.tabNav li {
+	list-style: none;
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+.tabNav li a {
+	background: url('../images/portal_tab_right.png') top right no-repeat;
+	display: block;
+	padding: 0 5px 0 0;
+	text-decoration: none;
+	color: #ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-transform: capitalize; 
+}
+
+.tabNav li a span {
+	background: url('../images/portal_tab_left.png') top left no-repeat;
+	display: block;
+	padding:0 9px 0 14px;
+}
+
+.tabNav li.selected a,.tabNav li:hover a {
+	background: url('../images/portal_tab_right.png') top right no-repeat;
+	color: #999;
+}
+
+.tabNav li.selected a span,.tabNav li:hover a span {
+	background: url('../images/portal_tab_left.png') top left no-repeat;
+}
+
+/*
+ * IE6 Support
+ */
+/*
+.tabNav li a {
+  background: url(images/nav_right_IE6.png) top right no-repeat !important;
+  background: url(images/nav_right.png) top right no-repeat;
+  display: block;
+  padding: 0 13px 0 0;
+  color: #578ba0;
+  text-decoration: none
+}
+.tabNav li.selected a,
+.tabNav li.hover a {
+  background: url(images/nav_selected_right.png) top right no-repeat !important;
+  background: url(images/nav_selected_right_IE6.png) top right no-repeat;
+  color: #578ba0;
+}
+
+.tabNav li a span {
+  background: url(images/nav_left.png) top left no-repeat !important;
+  background: url(images/nav_left_IE6.png) top left no-repeat;
+  display: block;
+  padding: 15px 10px 10px 23px;
+}
+.tabNav li.selected a span,
+.tabNav li.hover a span {
+  background: url(images/nav_selected_left.png) top left no-repeat !important;
+  background: url(images/nav_selected_left_IE6.png) top left no-repeat;
+}*/
